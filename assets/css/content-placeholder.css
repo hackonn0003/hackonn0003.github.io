@@ -1,0 +1,211 @@
+@-webkit-keyframes placeHolderShimmer{
+        0%{
+            background-position:-468px 0
+        }
+        100%{
+            background-position:468px 0
+        }
+    }
+
+    @keyframes placeHolderShimmer{
+        0%{
+            background-position:-468px 0
+        }
+        100%{
+            background-position:468px 0
+        }
+    }
+
+    .timeline-wrapper {
+        background-color: #e9eaed;
+        color: #141823;
+        padding: 20px;
+        border: 1px solid #ccc;
+        margin: 0 auto 1em;
+    }
+
+.timeline-item {
+	border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+	padding: 10px;
+	min-height: 200px;
+}
+
+.animated-background {
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-name: placeHolderShimmer;
+	animation-name: placeHolderShimmer;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	background: #f6f7f8;
+	background: #eeeeee;
+	background: -webkit-gradient(linear, left top, right top, color-stop(8%, #eeeeee), color-stop(18%, #dddddd), color-stop(33%, #eeeeee));
+	background: -webkit-linear-gradient(left, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+	background: linear-gradient(to right,  #eeeeee 8%,#dddddd 18%,#eeeeee 33%);
+	-webkit-background-size: 800px 104px;
+	background-size: 800px 104px;
+	height:278px;
+	position: relative;
+}
+.background-masker {
+	background: #fff;
+	position: absolute;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.outlined .background-masker {
+	border: 1px solid #ddd;
+}
+.outlined:hover .background-masker {
+	border: none;
+}
+.outlined:hover .background-masker:hover {
+	border: 1px solid #ccc;
+	z-index: 1;
+}
+.ghost-placeholder-top,
+.ghost-placeholder-line-02,
+.ghost-placeholder-line-03,
+.ghost-placeholder-line-04,
+.ghost-placeholder-line-05,
+.ghost-placeholder-line-06,
+.ghost-placeholder-line-07,
+.ghost-placeholder-line-08{
+	top: 40px;
+	left: 0;
+	right: 0;
+	height: 6px;
+}
+.ghost-placeholder-top {
+	height:20px;
+	top: 58px;
+}
+.ghost-placeholder-line-02  {
+	top: 86px;
+}
+.ghost-placeholder-line-03 {
+	top: 100px;
+	height: 18px;
+}
+.header-round{
+	width:35px;
+	height:35px;
+	border-radius:100%;
+}
+.ghost-placeholder-header-top{
+	top: 0;
+	left:0px;
+	right:0;
+	height:34px;
+}
+.ghost-placeholder-line-01,
+.ghost-placeholder-line-end-01 {
+	top:42px;
+	height:8px;
+	left:0px;
+	right:0px;
+}
+.ghost-placeholder-line-end-01 {
+	top:50px;
+	left:216px;
+}
+.ghost-placeholder-thumb {
+	height: 40px;
+	width: 40px;
+	left: 0;
+	top:118px;
+	background:radial-gradient(circle closest-side at center, rgba(0,0,0,0) 100%, #fff);
+}
+.ghost-placeholder-thumb-top,
+.ghost-placeholder-thumb-bottom,
+.ghost-placeholder-subthumb-bottom {
+	top: 118px;
+	left: 40px;
+	right: 0;
+	height: 10px;
+}
+.ghost-placeholder-thumb-left,
+.ghost-placeholder-subthumb-left,
+.ghost-placeholder-subthumb-right {
+	top: 140px;
+	left: 40px;
+	height: 8px;
+	width: 10px;
+}
+.ghost-placeholder-thumb-bottom {
+	top: 134px;
+	height: 6px;
+}
+.ghost-placeholder-subthumb-left,
+.ghost-placeholder-subthumb-right {
+	top: 128px;
+	height: 6px;
+}
+.ghost-placeholder-subthumb-right {
+	width: auto;
+	left: 300px;
+	right: 0;
+}
+.ghost-placeholder-subthumb-right {
+	left:180px;
+}
+.ghost-placeholder-subthumb-bottom {
+	top: 148px;
+	height: 10px;
+}
+.content-line-white,
+.content-line-middle-1,
+.content-line-middle-2{
+	top:158px;
+	left:0px;
+	right:0px;
+	height:8px;	
+}
+.ghost-placeholder-line-04,
+.ghost-placeholder-line-end-04,
+.ghost-placeholder-line-end-last-04{
+	height:16px;
+	top:158px;
+}
+.ghost-placeholder-line-end-04{
+	top:174px;
+	left:75px; 
+	width:60px; 	
+}
+.ghost-placeholder-line-end-last-04{
+	top: 174px;
+	left:206px;
+	width:60px;
+}
+.ghost-placeholder-line-06{
+	top: 182px;
+	height: 38px;
+}
+.ghost-placeholder-line-07{
+	top:228px;
+	height:28px;
+}
+.ghost-placeholder-line-end-07,
+.ghost-placeholder-line-end-mid-07,
+.ghost-placeholder-line-end-last-07{
+	left:45px;
+	right:0px;
+	height:8px;
+	top:256px;
+	width:20px;
+}
+.ghost-placeholder-line-end-mid-07{
+	left:120px;
+}
+.ghost-placeholder-line-end-last-07{
+	left:195px;
+}
+.ghost-placeholder-line-08{
+	top:264px;
+	height:16px;
+}
